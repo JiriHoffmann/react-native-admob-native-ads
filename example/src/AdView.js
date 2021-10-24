@@ -5,7 +5,6 @@ import NativeAdView, {
   CallToActionView,
   HeadlineView,
   IconView,
-  StarRatingView,
   StoreView,
   TaglineView,
 } from 'react-native-admob-native-ads';
@@ -226,15 +225,6 @@ export const AdView = React.memo(({index, media, type, loadOnMount = true}) => {
               <StoreView
                 style={{
                   fontSize: 12,
-                }}
-              />
-              <StarRatingView
-                starSize={12}
-                fullStarColor="orange"
-                emptyStarColor="gray"
-                style={{
-                  width: 65,
-                  marginLeft: 10,
                 }}
               />
             </View>

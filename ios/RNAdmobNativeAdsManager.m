@@ -3,10 +3,6 @@
 
 @import GoogleMobileAds;
 
-#ifdef MEDIATION_FACEBOOK
-@import FBAudienceNetwork;
-#endif
-
 @implementation RNAdmobNativeAdsManager
 
 RCT_EXPORT_MODULE();
@@ -46,9 +42,6 @@ RCT_EXPORT_METHOD(setRequestConfiguration:(NSDictionary *)config resolver:(RCTPr
 
     if ([[config allKeys] containsObject:@"trackingAuthorized"]) {
         NSNumber *trackingAuthorized = [config valueForKey:@"trackingAuthorized"];
-        #ifdef MEDIATION_FACEBOOK
-        [FBAdSettings setAdvertiserTrackingEnabled:trackingAuthorized];
-        #endif
     };
 
     GADMobileAds *ads = [GADMobileAds sharedInstance];

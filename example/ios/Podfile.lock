@@ -1,8 +1,6 @@
 PODS:
   - boost-for-react-native (1.63.0)
   - DoubleConversion (1.1.6)
-  - FBAudienceNetwork (6.5.1):
-    - FBSDKCoreKit_Basics
   - FBLazyVector (0.64.2)
   - FBReactNativeSpec (0.64.2):
     - RCT-Folly (= 2020.01.13.00)
@@ -32,7 +30,6 @@ PODS:
     - "GoogleUtilities/NSData+zlib (~> 7.4)"
     - nanopb (~> 2.30908.0)
   - GoogleMobileAdsMediationFacebook (6.5.1.0):
-    - FBAudienceNetwork (= 6.5.1)
     - Google-Mobile-Ads-SDK (~> 8.0)
   - GoogleUserMessagingPlatform (2.0.0)
   - GoogleUtilities/AppDelegateSwizzler (7.5.0):
@@ -363,7 +360,6 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - boost-for-react-native
-    - FBAudienceNetwork
     - FBSDKCoreKit_Basics
     - Google-Mobile-Ads-SDK
     - GoogleAppMeasurement
@@ -440,7 +436,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: cf9b38bf0b2d048436d9a82ad2abe1404f11e7de
-  FBAudienceNetwork: 9a5f277d6ed36a46354a045c46a4858b47407a72
   FBLazyVector: e686045572151edef46010a6f819ade377dfeb4b
   FBReactNativeSpec: 6ac2a7ef29f2a3415a0930a4a77713c31c29c15b
   FBSDKCoreKit_Basics: 06780a4a12e16596bde8406add02c6aa1bf38616
